@@ -1,0 +1,134 @@
+
+body {
+    padding: 90px 20px 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    background-color: aqua;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+    
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 100px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.nav ul {
+    padding-right: 200px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+img {
+    height: 150px; 
+    width: 150px;
+    float: right;
+    margin-right: 200px;
+}
+
+h2 {
+    border: solid 5px aqua;
+}
+
+h2[id] {
+
+    scroll-margin-top: 80px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+pre {
+    margin-left: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+i {
+    padding-left: 50px;
+    color: green;
+}
+
+form {
+    margin-left: 20px;
+}
+
+div {
+    display: none;
+}
+div p {
+    display: inline-flex;
+}
+
+.botones {
+    margin-left: 20px;
+}
+
+.pregunta {
+    color: green;
+    font-weight: bold;
+    border-top: solid 5px aqua;
+    padding-top: 20px;
+}
+
+#aclaracion {
+    margin-left: 0px;
+    color: green;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        }
+
+    .header {
+        height: 150px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        }  
+
+    h1 {
+      font-size: 20px;
+      font-weight: bold;
+      padding: 0;
+      line-height: 50px;
+      text-transform: uppercase;
+    }   
+
+    h2[id] {
+       scroll-margin-top: 150px;
+    }
+        
+    body {
+       padding: 130px 20px 0px;
+    }
+    img {
+       float: none;
+    }
+
+    i {
+      padding-left: 20px;
+    }
+}
+
+.años {
+    width: 50px;
+}
